@@ -1,0 +1,283 @@
+/* 首页样式 */
+/* banner */
+#banner .menu {
+  width: 200px;
+  background: #f3f3f3;
+}
+#banner .menu li {
+  line-height: 30px;
+}
+#banner .menu li p {
+  line-height: 30px;
+  border: 1px solid #f3f3f3;
+  text-indent: 20px;
+}
+#banner .menu li p a {
+  color: #1a1a1a;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* 选中效果 */
+#banner .menu li:hover p {
+  background: #fff;
+  border: 1px solid #f60;
+  border-right: none;
+  position: relative;
+  z-index: 1001;
+}
+#banner .menu li:hover p a {
+  color: #f60;
+}
+
+#banner .menu li dl {
+  width: 510px;
+  background: #fff;
+  border: 1px solid #f60;
+  position: absolute;
+  left: 199px;
+  top: 0;
+  z-index: 1000;
+  display: none;
+  padding: 0 30px 35px;
+}
+#banner .menu li dl a {
+  color: #1a1a1a;
+}
+#banner .menu li dl dt:not(:first-child) {
+  border-bottom: 2px solid #e6e6e6;
+}
+#banner .menu li dl dt:not(:first-child) a {
+  color: #f60;
+  font-size: 14px;
+}
+#banner .menu li:hover>dl {
+  display: block;
+}
+
+#banner .sliderbox {
+  width: 1000px;
+}
+.btnleft,
+.btnright {
+  color: #fff;
+  font-size: 16px;
+  line-height: 45px;
+  text-align: center;
+}
+
+/* 乐购·今日推荐 */
+#recommend .picList {
+  width: 1188px;
+  border-left: 2px solid #f60;
+}
+
+#recommend .picList li {
+  width: 196px;
+  height: 246px;
+  float: left;
+  border-right: 2px solid #f60;
+  border-bottom: 2px solid #f60;
+}
+
+/* 图书 */
+#ebook .ebookL {
+  width: 904px;
+}
+
+#ebook .ebookR {
+  width: 282px;
+}
+ 
+#ebook .ebookR ul {
+  margin-left: 20px;
+}
+
+#ebook .ebookR ul li {
+  position: relative;
+}
+
+#ebook .ebookR ul li img {
+  width: 112px;
+  height: 147px;
+}
+#ebook .ebookR ul li div,
+#ebook .ebookR ul li.active h4  {
+  display: none;
+}
+#ebook .ebookR ul li.active div{
+  display: block;
+}
+
+#ebook .ebookR ul li p {
+  margin-right: 10px;
+  width: 130px;
+}
+
+
+#ebook .ebookR ul li span {
+  left: -15px;
+  top: 10px;
+}
+
+#ebook .ebookR ul li h4 {
+  line-height: 42px;
+}
+
+#ebook .ebookR ul li:not(:last-child) {
+  border-bottom: 2px solid #e6e6e6;
+}
+
+#ebook .ebookTab li {
+  float: left;
+  width: 98px;
+}
+#ebook .ebookTab li.current {
+  background: #f60;
+  color: #fff;
+}
+
+#ebook .ebookL .slidebar {
+  width: 235px;
+  background: #f9f9f9;
+}
+#ebook .ebookL .slidebar img {
+  width: 235px;
+}
+
+#ebook .ebookL .slidebar ul li {
+  float: left;
+  width: 78px;
+  margin-top: 20px;
+  padding: 0 0 3px;
+}
+
+#ebook .ebookL .content {
+  width: 667px;
+}
+
+#ebook .ebookL .content .items {
+  display: none;
+  width: 670px;
+  border-left: 1px solid #ccc;
+}
+#ebook .ebookL .content .items.on {
+  display: block;
+}
+
+#ebook .ebookL .content .items>li {
+  float: left;
+  width: 167px;
+  height: 220px;
+  border-right: 2px solid #cccccc;
+  border-bottom: 2px solid #cccccc;
+  box-sizing: border-box;
+  padding: 15px 5px 10px;
+}
+#ebook .ebookL .content .items>li img {
+  width: 100%;
+  margin: 12px 0 10px 0;
+}
+
+#ebook .ebookL .content .items>li.first {
+  width: 334px;
+  padding: 0;
+}
+#ebook .ebookL .content .items>li.first img {
+  margin: 0;
+}
+
+.flor .Tab li {
+  float: left;
+  width: 75px;
+  padding: 0 10px;
+  margin-left: 10px;
+}
+.flor .Tab li.current {
+  background-color: #f60;
+  color: #fff;
+}
+
+.flor .l {
+  width: 238px;
+}
+
+.flor .l ul li {
+  float: left;
+  width: 78px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.flor .middle {
+  width: 425px;
+}
+.flor .middle .bd img {
+  width: 100%;
+}
+.flor .middle .hd {
+  height: 342px;
+}
+
+.flor .r {
+  width: 537px;
+  height: 502px;
+  overflow: hidden;
+}
+
+.flor .r ul li {
+  float: left;
+  width: 178px;
+  box-sizing: border-box;
+  border-right: 2px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.flor .r ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+/* 页脚 */
+/* #footer {
+  height: 1000px;
+} */
+#footer img {
+  width: 100%;
+}
+
+/* 楼层跳转 */
+#floorBox {
+  position: fixed;
+  left: 50%;
+  margin-left: -650px;
+  top: 200px;
+  width: 40px;
+  background: #f2f2f2;
+}
+#floorBox ul li {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-indent: 40px;
+  background: url(../imgs/floor.png) no-repeat;
+  overflow: hidden;
+  color: #fff;
+}
+
+/* 固定头部 */
+#fixedHeader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #f60;
+  background: rgba(0, 0, 0, .5);
+  display: none;
+}
+#fixedHeader .search {
+  position: absolute;
+  left: 50%;
+  margin-left: -220px;
+  top: 7px;
+}

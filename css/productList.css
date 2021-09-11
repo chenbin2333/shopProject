@@ -1,0 +1,80 @@
+.ftitle h2 span {
+  display: inline-block;
+  line-height: 34px;
+  background: #f60;
+  color: #fff;
+  font-size: 28px;
+  padding: 0 5px;
+}
+
+#exclusive .proList li {
+  float: left;
+  width: 170px;
+  height: 220px;
+  margin: 15px 15px;
+}
+#exclusive .proList li img {
+  width: 150px !important;
+  height: 150px !important;
+}
+
+#exclusive .Exc {
+  display: none;
+}
+#exclusive .Exc.on {
+  display: block;
+}
+
+.content {
+  position: relative;
+  height: 480px;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+}
+.guessyoulikeContent  {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.guessyoulikeContent li {
+  width: 170px;
+  height: 220px;
+  margin: 10px 15px;
+  float: left;
+}
+
+#banner .slider {
+  width: 1000px;
+}
+#banner .hot {
+  width: 200px;
+}
+#banner .hot h3 {
+  line-height: 30px;
+  height: 30px;
+	background-color: #93d46f;
+  font-size: 18px;
+  color: #fff;
+  font-weight: normal;
+  text-indent: 10px;
+}
+#banner .hot img {
+  width: 100px;
+}
+#banner .hot p {
+  font-size: 14px;
+  color: #333333;
+}
+#banner .hot li {
+  padding: 12px 0;
+  height: 40px;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+#banner .hot li:last-child {
+  border: 0;
+}
+#banner .hot li.active {
+  height: 90px;
+}

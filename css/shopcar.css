@@ -1,0 +1,32 @@
+/* 购物车 */
+#shopCar td {
+  text-align: center;
+  padding: 15px;
+}
+#shopCar tbody td span {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  border: 1px solid #ccc;
+  user-select: none;
+  cursor: pointer;
+}
+#shopCar .num {
+  width: 72px;
+  height: 26px;
+  border: 1px solid #ccc;
+  line-height: 26px;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  outline: none;
+}
+#shopCar thead tr th,
+#shopCar tfoot tr td {
+  height: 60px;
+  background-color: #f2f2f2;
+}
+#shopCar tr {
+  border-bottom: 1px solid #ccc;
+}

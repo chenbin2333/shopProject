@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <title>乐购商城</title>
+  <meta name="description"
+    content="乐购JD.COM-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!" />
+  <meta name="Keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,乐购" />
+
+  <!-- 重置样式表 -->
+  <link rel="stylesheet" href="./css/reset.css">
+
+  <!-- 公共样式表 -->
+  <link rel="stylesheet" href="./css/common.css">
+
+  <link rel="stylesheet" href="./css/register.css">
+</head>
+
+<body>
+  <!-- 1.头部 -->
+  <div id="header">
+    <div class="top">
+      <div class="container ce6 font14 clearfix">
+        <div class="pl200 fl">
+          logochina.cn
+        </div>
+        <div class="fr">
+          欢迎光临乐购,请<a href="#" class="cf60">登录</a> \ <a href="#" class="cf60">注册</a>
+        </div>
+      </div>
+    </div>
+    <!-- 菜单栏 -->
+    <div class="container pr clearfix">
+      <!-- logo -->
+      <a href="./home.html">
+        <img src="./imgs/logo.jpg" alt="" class="logo pa">
+      </a>
+      <h2 class="fl">欢迎登录</h2>
+      <p class="fr">已有账号，请<a href="#">登录</a></p>
+    </div>
+  </div>
+
+  <!-- 内容 -->
+  <div class="content">
+    <form action="" class="regform" id="myform">
+      <p>
+        <label for="">用户名</label>
+        <input type="text" placeholder="您的账户名和登录名"
+        name="userName">
+      </p>
+      <p>
+        <label for="">设置密码</label>
+        <input type="text" placeholder="建议设置两种字符密码"
+        name="pwd">
+      </p>
+      <p>
+        <label for="">确认密码</label>
+        <input type="text" placeholder="再次输入密码"
+        name="surePwd">
+      </p>
+      <p>
+        <label for="">中国+86</label>
+        <input type="text" placeholder="建议使用常用手机号"
+        name="telphone">
+      </p>
+      <p>
+        <label for="">验证码</label>
+        <input type="text" placeholder="请输入验证码" class="vcode"
+        name="vicode">
+        <img src="./imgs/vcode.jpg" alt="">
+      </p>
+      <p>
+        <label for="">手机验证码</label>
+        <input type="text" placeholder="输入手机验证码" class="vcode"
+        name="telCode">
+        <button class="yzm">获取验证码</button>
+      </p>
+      <div>
+        <input type="checkbox" class="read">我已阅读并同意
+        <a href="">《京东用户注册协议》</a>
+      </div>
+      <button class="nowregister" disabled>立即注册</button>
+    </form>
+  </div>
+
+
+  <!-- 页脚 -->
+  <div id="footer">
+    <img src="./imgs/footer.jpg" alt="">
+  </div>
+
+  <!-- 引入jquery库 -->
+  <script src="./js/jquery-1.11.0.js"></script>
+  <!-- 引入表单验证插件 -->
+  <script src="./js/jquery.validate.min.js"></script>
+  <!-- 引入表单验证 -->
+  <script src="./js/register.js"></script>
+</body>
+
+</html>

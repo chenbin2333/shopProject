@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <title>乐购商城</title>
+  <meta name="description"
+    content="乐购JD.COM-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!" />
+  <meta name="Keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,乐购" />
+
+  <!-- 重置样式表 -->
+  <link rel="stylesheet" href="./css/reset.css">
+
+  <!-- 公共样式表 -->
+  <link rel="stylesheet" href="./css/common.css">
+
+  <link rel="stylesheet" href="./css/home.css">
+
+  <link rel="stylesheet" href="./css/slider.css">
+</head>
+
+<body>
+  <!-- 1.头部 -->
+  <div id="header">
+    <div class="top">
+      <div class="container ce6 font14 clearfix">
+        <div class="pl200 fl">
+          logochina.cn
+        </div>
+        <div class="fr">
+          欢迎光临乐购,请<a href="#" class="cf60">登录</a> \ <a href="./register.html" class="cf60">注册</a>
+        </div>
+      </div>
+    </div>
+    <!-- 菜单栏 -->
+    <div class="container pr">
+      <!-- logo -->
+      <a href="./home.html">
+        <img src="./imgs/logo.jpg" alt="" class="logo pa">
+      </a>
+      <!-- 搜索+购物车 -->
+      <div class="clearfix ptb520" id="searchBox1">
+        <!-- 我的订单 -->
+        <div class="fr shopCar font14 tcenter">
+          <a href="./shopcar.html">购物车 3</a>
+          <a href="#">我的订单</a>
+        </div>
+        <!-- 搜索框 -->
+        <form action="" class="fr search">
+          <input type="text" placeholder="创意文具">
+          <input type="submit" value="">
+        </form>
+      </div>
+      <ul class="nav clearfix">
+        <li><a href="./ProductList.html">图书</a></li>
+        <li><a href="./proDetail.html">手机</a></li>
+        <li><a href="#">原创文学</a></li>
+        <li><a href="#">服装</a></li>
+        <li><a href="#">运动户外</a></li>
+        <li><a href="#">孕婴童</a></li>
+        <li><a href="#">家居</a></li>
+        <li><a href="#">创意文具</a></li>
+        <li><a href="#">地方特产</a></li>
+        <li><a href="#">海外购</a></li>
+        <li><a href="#">电器城</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- 2.banner -->
+  <div id="banner" class="container clearfix">
+    <!-- 无限极分类菜单 -->
+    <ul class="fl menu pr">
+      <script>
+        for (let i = 0; i < 13; ++i) {
+          document.write(`
+              <li>
+            <!-- 一级分类 -->
+            <p>
+              <a href="#">图书</a>、
+              <a href="#">电子书</a>、
+              <a href="#">童书</a>
+            </p>
+            <!-- 二级分类 -->
+            <dl>
+              <dt>
+                <a href="#">${i}图书馆</a>>>
+                <a href="#">儿童书馆</a>>>
+                <a href="#">电子书馆</a>
+              </dt>
+              <dt>
+                <a href="">文艺</a>
+              </dt>
+              <dd>
+                <a href="">文学</a>
+                <a href="">文学</a>
+                <a href="">文学</a>
+              </dd>
+              <dt>
+                <a href="">文艺</a>
+              </dt>
+              <dd>
+                <a href="">文学</a>
+                <a href="">文学</a>
+                <a href="">文学</a>
+              </dd>
+              <dt>
+                <a href="">文艺</a>
+              </dt>
+              <dd>
+                <a href="">文学</a>
+                <a href="">文学</a>
+                <a href="">文学</a>
+              </dd>
+              <dt>
+                <a href="">文艺</a>
+              </dt>
+              <dd>
+                <a href="">文学</a>
+                <a href="">文学</a>
+                <a href="">文学</a>
+              </dd>
+              <dt>
+                <a href="">文艺</a>
+              </dt>
+              <dd>
+                <a href="">文学</a>
+                <a href="">文学</a>
+                <a href="">文学</a>
+              </dd>
+              <dt>
+                <a href="">文艺</a>
+              </dt>
+              <dd>
+                <a href="">文学</a>
+                <a href="">文学</a>
+                <a href="">文学</a>
+              </dd>
+              <dt>
+                <a href="">文艺</a>
+              </dt>
+              <dd>
+                <a href="">文学</a>
+                <a href="">文学</a>
+                <a href="">文学</a>
+              </dd>
+            </dl>
+          </li>
+          `)
+        }
+      </script>
+    </ul>
+    <!-- banner盒子 -->
+    <div class="fl sliderbox">
+      <!--轮播开始-->
+      <div class="pptbox" id="bannerInner">
+        <!--轮播的内容-->
+        <ul class="innerwrapper">
+          <li>
+            <a href="#"><img src="imgs/banner1.jpg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="imgs/banner2.jpg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="imgs/banner3.jpg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="imgs/banner4.jpg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="imgs/banner5.jpg" /></a>
+          </li>
+        </ul>
+        <!--数字控制器-->
+        <ul class="controls">
+          <li class="current">1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ul>
+        <!--按钮控制器-->
+        <span class="btnleft">&lt;</span>
+        <span class="btnright">&gt;</span>
+      </div>
+      <!--轮播结束-->
+    </div>
+  </div>
+  <!-- 3.今日推荐 -->
+  <div id="recommend" class="container">
+    <!-- 标题 -->
+    <div class="ftitle">
+      <h2 class="font24 cf60 fnormal ml15">乐购·今日推荐</h2>
+    </div>
+    <!-- 图文列表 -->
+    <ul class="picList mauto clearfix font14">
+      <script>
+        for (let i = 0; i < 12; ++i) {
+          document.write(`
+            <li>
+            <div class="tcenter">
+              <img src="./imgs/product01.jpg" alt="">
+            </div>
+            <img src="./imgs/limitTime.jpg" alt="">
+            <h3 class="fnormal c333 ti5">黑爵青蜂侠六建电竞游戏鼠标</h3>
+            <p class="cf42 ti5">全国联保 一年免费包换</p>
+            <p class="font24 cf42 ti5">￥:299</p>
+          </li>
+         `)
+        }
+      </script>
+    </ul>
+  </div>
+  <!-- 4.图书 -->
+  <div id="ebook" class="container clearfix mt40 flor">
+    <!-- 左边 -->
+    <div class="ebookL fl">
+      <div class="ftitle">
+        <h2 class="font24 fnormal ml15 fl">图书 电子书</h2>
+        <!-- 选项菜单 -->
+        <ul class="fr ebookTab tcenter font18 c333">
+          <li class="current">最新上架</li>
+          <li>独家畅销</li>
+          <li>电子书</li>
+        </ul>
+      </div>
+      <!-- 侧栏和图文列表 -->
+      <div class="clearfix">
+        <!-- 侧栏 -->
+        <div class="slidebar fl tcenter">
+          <img src="./imgs/index7_07.jpg" alt="">
+          <ul>
+            <li>中小学教辅</li>
+            <li>中小学教辅</li>
+            <li>中小学教辅</li>
+            <li>中小学教辅</li>
+            <li>中小学教辅</li>
+            <li>中小学教辅</li>
+            <li>中小学教辅</li>
+            <li>中小学教辅</li>
+            <li>中小学教辅</li>
+            <li>中小学教辅</li>
+            <li>中小学教辅</li>
+            <li>中小学教辅</li>
+          </ul>
+        </div>
+        <!-- 图文列表 -->
+        <div class="content fl">
+          <!-- 第一个内容 -->
+          <ul class="items on clearfix">
+            <li class="first">
+              <!--轮播开始-->
+              <div class="pptbox picSlider">
+                <!--轮播的内容-->
+                <ul class="innerwrapper">
+                  <li>
+                    <a href="#"><img src="imgs/banner1.jpg" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="imgs/banner2.jpg" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="imgs/banner3.jpg" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="imgs/banner4.jpg" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="imgs/banner5.jpg" /></a>
+                  </li>
+                </ul>
+                <!--数字控制器-->
+                <ul class="controls">
+                  <li class="current">1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+                  <li>5</li>
+                </ul>
+                <!--按钮控制器-->
+                <span class="btnleft">&lt;</span>
+                <span class="btnright">&gt;</span>
+              </div>
+              <!--轮播结束-->
+            </li>
+            <script>
+              for (let i = 0; i < 6; ++i) {
+                document.write(`
+                    <li>
+                  <h3 class="font16 c333">1111奥运狂欢</h3>
+                  <p class="cf42">10万种电子书 直降百40%</p>
+                  <img src="./imgs/index09_05.jpg" alt="">
+                  <p class="cf42 font14 ti10">
+                    &yen;49 <span class="price cb3">&yen;79</span>
+                  </p>
+                </li>
+                `)
+              }
+            </script>
+          </ul>
+          <ul class="items clearfix">
+            <li class="first">
+              <!--轮播开始-->
+              <div class="pptbox picSlider">
+                <!--轮播的内容-->
+                <ul class="innerwrapper">
+                  <li>
+                    <a href="#"><img src="imgs/banner1.jpg" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="imgs/banner2.jpg" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="imgs/banner3.jpg" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="imgs/banner4.jpg" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="imgs/banner5.jpg" /></a>
+                  </li>
+                </ul>
+                <!--数字控制器-->
+                <ul class="controls">
+                  <li class="current">1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+                  <li>5</li>
+                </ul>
+                <!--按钮控制器-->
+                <span class="btnleft">&lt;</span>
+                <span class="btnright">&gt;</span>
+              </div>
+              <!--轮播结束-->
+            </li>
+            <script>
+              for (let i = 0; i < 6; ++i) {
+                document.write(`
+                    <li>
+                  <h3 class="font16 c333">2222奥运狂欢</h3>
+                  <p class="cf42">10万种电子书 直降百40%</p>
+                  <img src="./imgs/index09_05.jpg" alt="">
+                  <p class="cf42 font14 ti10">
+                    &yen;49 <span class="price cb3">&yen;79</span>
+                  </p>
+                </li>
+                `)
+              }
+            </script>
+          </ul>
+          <ul class="items clearfix">
+            <li class="first">
+              <!--轮播开始-->
+              <div class="pptbox picSlider">
+                <!--轮播的内容-->
+                <ul class="innerwrapper">
+                  <li>
+                    <a href="#"><img src="imgs/banner1.jpg" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="imgs/banner2.jpg" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="imgs/banner3.jpg" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="imgs/banner4.jpg" /></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="imgs/banner5.jpg" /></a>
+                  </li>
+                </ul>
+                <!--数字控制器-->
+                <ul class="controls">
+                  <li class="current">1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+                  <li>5</li>
+                </ul>
+                <!--按钮控制器-->
+                <span class="btnleft">&lt;</span>
+                <span class="btnright">&gt;</span>
+              </div>
+              <!--轮播结束-->
+            </li>
+            <script>
+              for (let i = 0; i < 6; ++i) {
+                document.write(`
+                    <li>
+                  <h3 class="font16 c333">3333奥运狂欢</h3>
+                  <p class="cf42">10万种电子书 直降百40%</p>
+                  <img src="./imgs/index09_05.jpg" alt="">
+                  <p class="cf42 font14 ti10">
+                    &yen;49 <span class="price cb3">&yen;79</span>
+                  </p>
+                </li>
+                `)
+              }
+            </script>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 右边 -->
+    <div class="ebookR fr b2px mt34">
+      <!-- 标题 -->
+      <h2 class="font24 c80 fnormal tcenter">新书畅销榜</h2>
+      <ul class="font16">
+        <li>
+          <span class="cf60 pa">1</span>
+          <h4 class="c4d fnormal">就喜欢你看不惯我 又干不</h4>
+          <div class="clearfix">
+            <img src="./imgs/index08_05.jpg" alt="" class="fl">
+            <p class="font14 fr">
+              从你的世界路过
+              入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读
+            </p>
+          </div>
+        </li>
+        <li class="active">
+          <span class="cf60 pa">2</span>
+          <h4 class="c4d fnormal">就喜欢你看不惯我 又干不</h4>
+          <div class="clearfix">
+            <img src="./imgs/index08_05.jpg" alt="" class="fl">
+            <p class="font14 fr">
+              从你的世界路过
+              入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读
+            </p>
+          </div>
+        </li>
+        <li>
+          <span class="cf60 pa">3</span>
+          <h4 class="c4d fnormal">就喜欢你看不惯我 又干不</h4>
+          <div class="clearfix">
+            <img src="./imgs/index08_05.jpg" alt="" class="fl">
+            <p class="font14 fr">
+              从你的世界路过
+              入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读
+            </p>
+          </div>
+        </li>
+        <li>
+          <span class="pa">4</span>
+          <h4 class="c4d fnormal">就喜欢你看不惯我 又干不</h4>
+          <div class="clearfix">
+            <img src="./imgs/index08_05.jpg" alt="" class="fl">
+            <p class="font14 fr">
+              从你的世界路过
+              入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读
+            </p>
+          </div>
+        </li>
+        <li>
+          <span class="pa">5</span>
+          <h4 class="c4d fnormal">就喜欢你看不惯我 又干不</h4>
+          <div class="clearfix">
+            <img src="./imgs/index08_05.jpg" alt="" class="fl">
+            <p class="font14 fr">
+              从你的世界路过
+              入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读
+            </p>
+          </div>
+        </li>
+        <li>
+          <span class="pa">6</span>
+          <h4 class="c4d fnormal">就喜欢你看不惯我 又干不</h4>
+          <div class="clearfix">
+            <img src="./imgs/index08_05.jpg" alt="" class="fl">
+            <p class="font14 fr">
+              从你的世界路过
+              入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读
+            </p>
+          </div>
+        </li>
+        <li>
+          <span class="pa">7</span>
+          <h4 class="c4d fnormal">就喜欢你看不惯我 又干不</h4>
+          <div class="clearfix">
+            <img src="./imgs/index08_05.jpg" alt="" class="fl">
+            <p class="font14 fr">
+              从你的世界路过
+              入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- 5.服装 -->
+  <div id="cloth" class="container flor mt34">
+    <div class="ftitle clearfix">
+      <h2 class="font24 fnormal ml15 fl">服装</h2>
+      <!-- 选项菜单 -->
+      <ul class="fr Tab tcenter font18 c333">
+        <li class="current">最新上架</li>
+        <li>独家畅销</li>
+        <li>电子书</li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="l fl">
+        <img src="./imgs/index7_17.jpg" alt="">
+        <ul>
+          <li>女包</li>
+          <li>防晒品</li>
+          <li>短裤</li>
+          <li>防晒品</li>
+          <li>防晒品</li>
+          <li>防晒品</li>
+          <li>防晒品</li>
+          <li>防晒品</li>
+          <li>防晒品</li>
+          <li>防晒品</li>
+          <li>防晒品</li>
+          <li>防晒品</li>
+        </ul>
+      </div>
+      <div class="middle fl">
+        <div class="hd">
+            <!--轮播开始-->
+      <div class="pptbox" id="clothswiper">
+        <!--轮播的内容-->
+        <ul class="innerwrapper">
+          <li>
+            <a href="#"><img src="./imgs/index10_05.jpg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="imgs/banner2.jpg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="imgs/banner3.jpg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="imgs/banner4.jpg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="imgs/banner5.jpg" /></a>
+          </li>
+        </ul>
+        <!--数字控制器-->
+        <ul class="controls">
+          <li class="current">1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ul>
+        <!--按钮控制器-->
+        <span class="btnleft">&lt;</span>
+        <span class="btnright">&gt;</span>
+      </div>
+      <!--轮播结束-->
+        </div>
+        <div class="bd">
+          <img src="./imgs/dbanner4.jpg" alt="">
+        </div>
+      </div>
+      <div class="r fl">
+        <ul>
+          <li class="h342">
+            <img src="./imgs/index100_05.jpg" alt="">
+          </li>
+          <li class="h342">
+            <img src="./imgs/index100_05.jpg" alt="">
+          </li>
+          <li class="h342">
+            <img src="./imgs/index100_05.jpg" alt="">
+          </li>
+          <li class="h156">
+            <img src="./imgs/index100_11.jpg" alt="">
+          </li>
+          <li class="h156">
+            <img src="./imgs/index100_11.jpg" alt="">
+          </li>
+          <li class="h156">
+            <img src="./imgs/index100_11.jpg" alt="">
+          </li>
+        </ul>
+        <ul>
+          <li class="h342">
+            <img src="./imgs/53840017853657_y.jpg" alt="">
+          </li>
+          <li class="h342">
+            <img src="./imgs/53840017853657_y.jpg" alt="">
+          </li>
+          <li class="h342">
+            <img src="./imgs/53840017853657_y.jpg" alt="">
+          </li>
+          <li class="h156">
+            <img src="./imgs/index100_11.jpg" alt="">
+          </li>
+          <li class="h156">
+            <img src="./imgs/index100_11.jpg" alt="">
+          </li>
+          <li class="h156">
+            <img src="./imgs/index100_11.jpg" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 6.户外运动 -->
+  <div id="sports" class="container flor">
+    <img src="./imgs/sports.jpg" alt="">
+  </div>
+  <!-- 7.童装 -->
+  <div id="child" class="container flor">
+    <img src="./imgs/children.jpg" alt="">
+  </div>
+  <!-- 8.家居日用 -->
+  <div id="homedaily" class="container flor">
+    <img src="./imgs/homedaily.jpg" alt="">
+  </div>
+  <!-- 9.推广商品-->
+  <div id="extend" class="container flor">
+    <img src="./imgs/extentd.jpg" alt="">
+  </div>
+  <!-- 页脚 -->
+  <div id="footer">
+    <img src="./imgs/footer.jpg" alt="">
+  </div>
+
+  <!-- 楼层跳转 -->
+  <div id="floorBox">
+    <ul>
+      <li class="bg01" bgcolor="#93d46f">图书</li>
+      <li class="bg02" bgcolor="#f4a364">服装</li>
+      <li class="bg03" bgcolor="#c095ef">户外</li>
+      <li class="bg04" bgcolor="#fc97a9">童装</li>
+      <li class="bg05" bgcolor="#d8ebf9">家居</li>
+    </ul>
+  </div>
+
+  <!-- 固定头部 -->
+  <div id="fixedHeader">
+    <div class="container pr" id="searchBox2">
+      <!-- <form action="" class="fr search">
+        <input type="text" placeholder="创意文具">
+        <input ty pe="submit" value="">
+      </form> -->
+    </div>
+  </div>
+  <!-- 引入jq库 -->
+  <script src="./js/jquery-1.11.0.js"></script>
+  <!-- 引入轮播插件 -->
+  <script src="./js/slider.js"></script>
+  <!-- 引入当前首页js -->
+  <script src="./js/home.js"></script>
+
+  <!-- 引入在线客服插件 -->
+  <script src="./js/kefu.js"></script>
+</body>
+
+</html>

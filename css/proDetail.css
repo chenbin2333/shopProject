@@ -1,0 +1,91 @@
+.bgf2 {
+  padding-top: 5px;
+}
+.bgf2 .container {
+  margin-bottom: 20px;
+}
+#proDetail h2 {
+  color: #646464;
+}
+#proDetail h2 span {
+  font-size: 24px;
+  color: #333;
+}
+#proDetail .leftbox {
+  width: 340px;
+}
+#proDetail .rightbox {
+  width:821px;
+}
+#proDetail .rightbox .bgf5 p span{
+  margin-right:10px;
+}
+#proDetail .rightbox .assess{
+  width: 80px;
+  text-align: center;
+  right:20px;
+  top:20px;
+  border-left:1px solid #c1c0c0;
+}
+#proDetail .rightbox p i{
+  display: inline-block;
+  width: 88px;
+  height:26px;
+  line-height:26px;
+  text-align: center;
+  color:#fff;
+  background: url('../imgs/Q.png') no-repeat;
+  margin:0 5px;
+}
+#proDetail .rightbox div b{
+  display: inline-block;
+  width: 100px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  border:1px solid #ccc;
+  font-weight: normal;
+}
+#proDetail .rightbox div b.active{
+  border:1px solid #f60;
+  background: url(../imgs/select.png) no-repeat right bottom;
+}
+#proDetail .rightbox .num{
+  width: 60px;
+  height:40px;
+  border:1px solid #ccc;
+  margin-top: 12px;
+}
+#proDetail .rightbox .num input{
+  width: 40px;
+  height:40px;
+  border:none;
+  outline: none;
+
+}
+#proDetail .rightbox .num a{
+  display: inline-block;
+  width: 20px;
+  height:20px;
+  background: #e4e4e4;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  color: #616060;
+  cursor: pointer;
+  /* 禁止复制文本 */
+  user-select: none;
+  
+}
+#proDetail .rightbox .num a:hover{
+  text-decoration: none;
+  
+}
+#proDetail .rightbox .btn{
+  width: 190px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f60;
+  border:none;
+  outline: none;
+  margin-left:25px;
+}
